@@ -50,11 +50,11 @@ import java.util.Set;
 public class Main {
     public static void main(String[] args) {
         try {
-            // System.out.println(new BruteForceSolver().solve(AuctionProblemInstance.IO.read(args[0])).value); // replace with your solver here
+//             System.out.println(new BruteForceSolver().solve(AuctionProblemInstance.IO.read(args[0])).value); // replace with your solver here
 
 //            System.out.println(new BruteForceSolver().solve(AuctionProblemInstance.IO.read(args[0])).value);
 //
-            System.out.println(new ExactSolver().solve(AuctionProblemInstance.IO.read(args[0])).value);
+            System.out.println(new ExactSolver2().solve(AuctionProblemInstance.IO.read(args[0])).value);
 
 
 
